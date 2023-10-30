@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!--! HEADER SECTİON START-->
+    <header>
+      <a href="#" class="logo"><img src="images/logo.png" alt="logo" /></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn" title="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+
+        <button id="cart-btn" title="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+
+        <button id="menu-btn" title="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" 
+        id="search-box" 
+        placeholder="search here">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu">
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+
+
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu">
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+
+
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu">
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+
+
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu">
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">chechout now</a>
+      </div>
+    </header>
+    <!--! HEADER SECTİON END-->
+
+    <!--! HOME SECTİON START-->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et debitis
+          quidem, facere, architecto ab unde quod asperiores excepturi facilis
+          voluptatibus quo,nam dolorem! Minus veniam similique accusamus nam
+          facere earum.
+        </p>
+        <a href="" class="btn">Order Now</a>
+      </div>
+    </section>
+
+    <!--! HOME SECTİON END-->
+
+    <!--! MENU SECTİON START-->
+
+    <section class="menu" id="menu">
+      <h1 class="heading">Our <span>Menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="price">$104.99 <span>119.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" alt="menu" />
+            <span class="menu-category">Burger</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="price">$99.99 <span>109.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" alt="menu" />
+            <span class="menu-category">PIZZA</span>
+            <h3>2 Mixed Pizzas</h3>
+            <div class="price">$49.99 <span>59.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" alt="menu" />
+            <span class="menu-category">Burgers</span>
+            <h3>3 Meatball Burgers</h3>
+            <div class="price">$79.99 <span>99.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--! MENU SECTİON END-->
+
+    <!--! PRODUCTS SECTİON START-->
+
+    <section class="products" id="products">
+      <h1 class="heading">Our <span>Products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/product-1.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$6.00</b>
+              <span class="amount">110gr/300cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/product-2.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$12.00</b>
+              <span class="amount">220gr/600cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/dark-product.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$24.00</b>
+              <span class="amount">440gr/1200cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--! PRODUCTS SECTİON END-->
+
+    <!--! ABOUT SECTİON END-->
+
+    <section class="about" id="about">
+      <h1 class="heading">about <span>us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus facilis inventore ipsum repudiandae impedit ut,
+            eligendi at neque illum commodi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus facilis inventore ipsum repudiandae impedit ut,
+            eligendi at neque illum commodi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus facilis inventore ipsum repudiandae impedit ut,
+            eligendi at neque illum commodi.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--! ABOUT SECTİON END-->
+
+    <!--! REVİEW SECTİON START-->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            dolore placeat quos itaque facilis vel a ullam eveniet iste saepe,
+            impedit temporibus, aliquam repellat sunt!
+          </p>
+          <img src="images/avatar-1.png" alt="avatar" class="user" />
+          <h3>Jennifer Becker</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            dolore placeat quos itaque facilis vel a ullam eveniet iste saepe,
+            impedit temporibus, aliquam repellat sunt!
+          </p>
+          <img src="images/avatar-2.png" alt="avatar" class="user" />
+          <h3>John Doe</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+            dolore placeat quos itaque facilis vel a ullam eveniet iste saepe,
+            impedit temporibus, aliquam repellat sunt!
+          </p>
+          <img src="images/avatar-3.png" alt="avatar" class="user" />
+          <h3>Lisa Arambula</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--! REVİEW SECTİON END-->
+
+    <!--! CONTACT SECTİON START-->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">contact <span>us</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!
+          1m18!1m12!1m3!1d6119.648553046527!2d32.85117804999
+          9994!3d39.9229485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f
+          13.1!3m3!1m2!1s0x14d34effd6b9930b%3A0x6fa79cbeeeec0bac!2
+          zS8SxesSxbGF5LCAwNjQyMCDDh2Fua2F5YS9BbmthcmE!5e0!3m2!1str
+          !2str!4v1687950867109!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="e-mail" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" class="btn" value="contact now" />
+        </form>
+      </div>
+    </section>
+
+    <!--! CONTACT SECTİON END-->
+
+    
+    <!--! BLOG SECTİON START-->
+
+      <section class="blog" id="blogs">
+        <h1 class="heading">our <span>blog</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+              <a href="#" class="title">how to make burgers?</a>
+              <span>by admin / 1st june, 2023</span>
+              <p>Lorem ipsum dolor,
+                 sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+              <a href="#" class="title">how to make burgers?</a>
+              <span>by admin / 1st june, 2023</span>
+              <p>Lorem ipsum dolor,
+                 sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="image">
+              <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+              <a href="#" class="title">how to make burgers?</a>
+              <span>by admin / 1st june, 2023</span>
+              <p>Lorem ipsum dolor,
+                 sit amet consectetur adipisicing elit.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--! BLOG SECTİON END-->
+
+
+    <!--! FOOT SECTİON START-->
+
+      <section class="footer">
+        <div class="search">
+          <input type="text" class="search-input" placeholder="Search">
+          <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+
+        <div class="links">
+          <a href="" class="active">Home</a>
+          <a href="">About</a>
+          <a href="">Menu</a>
+          <a href="">Products</a>
+          <a href="">Review</a>
+          <a href="">Contact</a>
+          <a href="">Blogs</a>
+        </div>
+
+        <div class="credit">
+          created by <span>Cagan Ozdes and Huseyın Mert Sahın</span>
+        </div>
+      </section>
+
+    <!--! FOOT SECTİON END-->
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
